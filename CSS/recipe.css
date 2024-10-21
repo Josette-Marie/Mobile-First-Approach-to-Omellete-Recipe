@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+img{
+    width:100vw;
+}
+.text {
+    padding-inline: 1.5rem;
+}
+.heading h1 {
+    font-size: 2rem;
+    width: 90%;
+    font-family: 'Young serif', sans-serif;
+    color: hsl(24, 5%, 18%);
+}
+.heading p {
+    padding-block: 2rem;
+    font-family: 'Outfit', sans-serif;
+}
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    border: 1px solid hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding-left:2rem ;
+    margin-bottom: 1rem;
+    
+}
+.preparation > p {
+    padding-block: 0.5rem;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+}
+.preparation ul li {
+    font-family: 'Outfit', sans-serif;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    width:20ch;
+}
+.preparation ul li p strong {
+    margin-left: 1.4rem;
+    color: hsl(24, 5%, 18%);
+   
+}
+.preparation ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+
+
+.ingredients>p,
+.instructions>p,
+.Nutri {
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Young serif', sans-serif;
+}
+
+.ingredients ul {
+    margin-left: 1.5rem;
+    list-style-type: square;
+    font-family: 'Outfit', sans-serif;
+}
+
+.ingredients ul li {
+    margin-bottom: 0.5rem;
+}
+.ingredients ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+.ingredients ul li p{
+    margin-left: 1rem;
+}
+
+.line {
+    border: 0.25px solid black;
+    margin-block: 1.5rem;
+}
+
+.instructions {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    ;
+}
+
+.instructions ol li {
+    margin-bottom: 0.5rem;
+    font-family: 'Outfit', sans-serif;
+   margin-left: 1.5rem;
+}
+.instructions ol li p{
+    margin-left: 1.5rem;
+}
+
+.instructions ol li strong {
+    color: hsl(24, 5%, 18%);
+    
+}
+.content{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.Calorie,
+.Proteins {
+    display: flex;
+    gap: 8rem;
+    margin-top: 1rem;
+    
+}
+
+.Carb,
+.Fat {
+    display: flex;
+    gap: 10rem;
+    
+}
+
+.num {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+@media (min-width: 700px){
+    .preparation ul li {
+        width:80ch;
+    }
+}
+ 
+@media (min-width: 1000px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(330, 100%, 98%);
+    }
+    
+    section {
+        margin-block: 2rem;
+        border: 1px solid hsl(330, 100%, 98%);
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        width: 40%;
+    }
+    img {
+        width: 90%;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin: 2rem;
+    }
+    .Calorie,
+.Proteins {
+   gap: 13rem;
+}
+
+.Carb,
+.Fat {
+gap: 15rem;
+}
+    
+}
+
+
